@@ -11,8 +11,7 @@ public class WayPointNavigator : MonoBehaviour {
 	protected CharacterController PlayerController;
 	protected GameObject CurrentWaypoint;
 	protected GameObject CurrentWaypointMarker;
-
-
+	
 	void Start () {
 		PlayerController = gameObject.GetComponent<CharacterController>();
 	}
