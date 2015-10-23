@@ -183,11 +183,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11433250, guid: da6f9921adf8b4164bfa73b596f86144, type: 2}
       propertyPath: m_strFileName
-      value: corener2_720.mp4
+      value: cam0_GOPR0000_720.mp4
       objectReference: {fileID: 0}
     - target: {fileID: 11457792, guid: da6f9921adf8b4164bfa73b596f86144, type: 2}
       propertyPath: srcMedia
-      value: corener2_720.mp4
+      value: cam0_GOPR0000_720.mp4
       objectReference: {fileID: 0}
     - target: {fileID: 417644, guid: da6f9921adf8b4164bfa73b596f86144, type: 2}
       propertyPath: m_LocalScale.x
@@ -800,33 +800,38 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 5515deac42bd543b981db1f392301375, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
+  m_Pitch: .980000019
+  Loop: 1
   Mute: 0
   Priority: 128
-  DopplerLevel: 1
+  DopplerLevel: 0
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 50
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 2
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
   rolloffCustomCurve:
     serializedVersion: 2
     m_Curve:
-    - time: 0
+    - time: 5.96046448e-08
       value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
+    - time: .196824849
+      value: .487878919
+      inSlope: -1.95535421
+      outSlope: -1.95535421
+      tangentMode: 0
     - time: 1
       value: 0
-      inSlope: 0
-      outSlope: 0
+      inSlope: -.990493596
+      outSlope: -.990493596
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
@@ -834,7 +839,7 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -844,7 +849,7 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - time: 0
-      value: 0
+      value: .00277777785
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -854,7 +859,7 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - time: 0
-      value: 1
+      value: .900000036
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -1187,6 +1192,10 @@ Prefab:
     - target: {fileID: 114982, guid: c24628e74198c4c6b9248302297ccc0b, type: 2}
       propertyPath: m_Name
       value: WayPoint_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114982, guid: c24628e74198c4c6b9248302297ccc0b, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c24628e74198c4c6b9248302297ccc0b, type: 2}
