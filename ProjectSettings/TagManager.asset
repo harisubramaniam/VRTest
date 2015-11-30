@@ -6,6 +6,7 @@ TagManager:
   tags:
   - DetailPoint
   - WayPoint
+  - DetailPointMarker
   layers:
   - Default
   - TransparentFX
